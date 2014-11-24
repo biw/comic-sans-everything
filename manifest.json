@@ -5,6 +5,11 @@
   "description": "The extension you have been waiting for.",
   "version": "1",
 
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png" },
+
   "content_scripts": [
     {
       "matches": ["*://*/*"],
