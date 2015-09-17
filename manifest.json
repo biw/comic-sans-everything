@@ -3,18 +3,17 @@
 
   "name": "Comic Sans Everything",
   "description": "The extension you have been waiting for.",
-  "version": "1",
+  "version": "1.2",
 
   "icons": {
     "16": "icon.png",
     "48": "icon.png",
-    "128": "icon.png" },
+    "128": "icon.png"
+  },
 
-  "content_scripts": [
-    {
-      "matches": ["*://*/*"],
-      "css": ["style.css"]
-    }
-  ]
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "css": ["style.css"]
+  }]
 
 }
