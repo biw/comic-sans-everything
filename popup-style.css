@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+* {
+  font-family: "comic sans ms" !important;
+}
+body {
+  width: 240px;
+  min-height: 215px;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+h1 {
+  font-size: 20px;
+  padding: 15px 0;
+/*   animation: shink-grow 2s ease infinite; */
+  text-transform: uppercase;
+  text-wrap: nowrap;
+}
+h2 {
+  background: blue;
+  border: 5px #fff dotted;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px;
+  color: #fff;
+}
+h2:hover {
+  animation: shink-grow 1s ease infinite;
+}
+button {
+  margin: 15px;
+  padding: 15px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  background: aqua;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(45deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3, #2b1de8, #1ddde8, #1de840, #e3e81d, #e8b71d, #e81d1d, #ff2400);
+  background-size: 1800% 1800%;
+
+  animation: rainbow 3s linear infinite;
+}
+
+@keyframes shink-grow {
+  0% {
+    font-size: 18px;
+    color: #fff;
+    background: blue;
+    border-color: #fff;
+  }
+  50% {
+    font-size: 20px;
+    color: blue;
+    background: #fff;
+    border-color: blue;
+  }
+  100% {
+    font-size: 18px;
+    color: #fff;
+    background: blue;
+    border-color: #fff;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position:0% 100%
+  }
+  100% {
+    background-position:100% 0%
+  }
+}
