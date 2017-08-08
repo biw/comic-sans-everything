@@ -1,7 +1,7 @@
 Comic-Sans-Everything
 =====================
 
-The extension you have always been waiting for.
+Chrome Extention that turns all website font to Comic Sans MS.
 
 
 Everything should work unless you're on Ubuntu. In that case check out http://www.howtogeek.com/howto/15495/add-microsoft-core-fonts-to-ubuntu/

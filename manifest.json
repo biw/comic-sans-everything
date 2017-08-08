@@ -1,19 +1,25 @@
 {
   "manifest_version": 2,
-
   "name": "Comic Sans Everything",
-  "description": "The extension you have been waiting for.",
-  "version": "1.2",
-
+  "description": "Extention that turns all website font to Comic Sans MS.",
+  "version": "2.0",
+  "homepage_url": "https://www.facebook.com/ComicSansEverything",
   "icons": {
-    "16": "icon.png",
-    "48": "icon.png",
-    "128": "icon.png"
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
   },
-
+  "browser_action": {
+    "default_icon": "icon16.png",
+    "default_title": "Change Comic Sans settings",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
   "content_scripts": [{
-    "matches": ["*://*/*"],
-    "css": ["style.css"]
+    "matches": ["<all_urls>"],
+    "js": ["background.js"]
   }]
-
 }
