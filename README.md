@@ -2,9 +2,9 @@
 
 ## [Download on Chrome Store](https://chrome.google.com/webstore/detail/comic-sans-everything/oaehjhfpohkdjkpcdbblepomnflojfli)
 
-Chrome Extention that turns all website font to Comic Sans MS.
+Chrome Extention that turns all website font to Comic Sans MS. Now with the ablity to switch cases!
 
-![screenshot 2017-08-08 02 38 33](https://user-images.githubusercontent.com/6139501/29066315-b803e494-7be3-11e7-8aaa-7272706bb860.png)
+![screenshot](https://user-images.githubusercontent.com/6139501/29202148-f53b7fb0-7e19-11e7-903e-80b6a916e279.gif)
 
 ## Ubuntu / Other Systems
 

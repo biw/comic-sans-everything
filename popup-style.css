@@ -53,7 +53,7 @@ table {
 }
 body {
   width: 240px;
-  min-height: 215px;
+  min-height: 250px;
   display: block;
   text-align: center;
   padding: 10px;
@@ -61,12 +61,11 @@ body {
 h1 {
   font-size: 20px;
   padding: 15px 0;
-/*   animation: shink-grow 2s ease infinite; */
   text-transform: uppercase;
   text-wrap: nowrap;
 }
 h2 {
-  background: blue;
+  background: #0000FF;
   border: 5px #fff dotted;
   display: inline-block;
   padding: 10px;
@@ -78,12 +77,26 @@ h2:hover {
   animation: shink-grow 1s ease infinite;
 }
 button {
-  margin: 15px;
+  margin: 15px auto;
   padding: 15px 10px;
   font-size: 18px;
   border-radius: 5px;
-  background: aqua;
+  background: #00FFFF;
+  display: block;
+  width: 210px;
 }
+
+button:hover {
+  cursor: pointer;
+}
+
+#case_switch {
+  background: #ffeb00;
+  font-size: 14px;
+  padding: 5px 10px;
+  margin: 0 auto 5px;
+}
+
 .container {
   height: 100%;
   width: 100%;
@@ -102,19 +115,19 @@ button {
   0% {
     font-size: 18px;
     color: #fff;
-    background: blue;
+    background: #0000FF;
     border-color: #fff;
   }
   50% {
     font-size: 20px;
-    color: blue;
+    color: #0000FF;
     background: #fff;
-    border-color: blue;
+    border-color: #0000FF;
   }
   100% {
     font-size: 18px;
     color: #fff;
-    background: blue;
+    background: #0000FF;
     border-color: #fff;
   }
 }
