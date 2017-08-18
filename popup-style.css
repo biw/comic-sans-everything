@@ -47,13 +47,13 @@ table {
   border-spacing: 0;
 }
 
-
 * {
   font-family: "comic sans ms" !important;
 }
+
 body {
   width: 240px;
-  min-height: 250px;
+  height: 230px;
   display: block;
   text-align: center;
   padding: 10px;
@@ -63,18 +63,21 @@ h1 {
   padding: 15px 0;
   text-transform: uppercase;
   text-wrap: nowrap;
+  color: #fff;
+  text-shadow: #000 0px 4px 20px;
 }
 h2 {
   background: #0000FF;
-  border: 5px #fff dotted;
+  border: 3px #fff dotted;
   display: inline-block;
-  padding: 10px;
-  border-radius: 15px;
+  padding: 3px;
+  border-radius: 8px;
   margin: 10px;
   color: #fff;
+  font-size: 12px;
 }
 h2:hover {
-  animation: shink-grow 1s ease infinite;
+  animation: color-change 1s ease infinite;
 }
 button {
   margin: 15px auto;
@@ -111,21 +114,22 @@ button:hover {
   animation: rainbow 3s linear infinite;
 }
 
-@keyframes shink-grow {
+.emoji {
+  font-family: "sans-serif";
+}
+
+@keyframes color-change {
   0% {
-    font-size: 18px;
     color: #fff;
     background: #0000FF;
     border-color: #fff;
   }
   50% {
-    font-size: 20px;
     color: #0000FF;
     background: #fff;
     border-color: #0000FF;
   }
   100% {
-    font-size: 18px;
     color: #fff;
     background: #0000FF;
     border-color: #fff;

@@ -22,8 +22,8 @@ window.chrome.storage.sync.get(['status', 'uppercase'], (items) => {
     }
   }
 })
-document.getElementById('fb_button').onclick = () => {
-  window.chrome.tabs.create({ url: 'http://bit.ly/ComicSansEverything' })
+document.getElementById('twttr_button').onclick = () => {
+  window.chrome.tabs.create({ url: 'http://twitter.com/719ben' })
 }
 document.getElementById('font_switch').onclick = () => {
   window.chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
