@@ -33,7 +33,7 @@ window.chrome.storage.sync.get(['status', 'uppercase'], (items) => {
       window.chrome.storage.sync.set({ 'status': true })
       setStatus(true)
     } else if (items.status) {
-      setStatus(false)
+      setStatus(true)
     } else if (!items.status) {
       setStatus(false)
     }
